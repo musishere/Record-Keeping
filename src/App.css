@@ -1,0 +1,84 @@
+*,*::before,*::after{
+  box-sizing: border-box;
+  margin: 0;
+}
+.App {
+  text-align: center;
+}
+
+.Header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #192a56;
+  height: 13vh;
+}
+
+.Header > h1{
+  color: white;
+  font-size: 3rem;
+}
+
+.Text-field{
+  /* padding: 10px; */
+  margin-top: 78px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#outlined-basic{
+  padding: 18px;
+}
+.Add{
+  padding: 20px;
+  height: 6vh;
+}
+
+.Text-field1{
+  margin-right: 10px;
+  /* border: 2px solid black; */
+}
+
+.Delete-button{
+  margin-left: 130px;
+}
+
+.Add-Button{
+  margin-left: 60px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.Data{
+  display: flex;
+  /* align-items: flex-start; */
+  justify-content: space-between;
+  background-color: rgb(208, 221, 221);
+  /* justify-content:flex-start; */
+  /* border: 2px solid green; */
+  border-radius: 6px;
+  padding: 18px;
+  margin-right: 11vh;
+  margin-top: 5px;
+}
+.Show-data{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+  margin-top: 4vh;
+  padding: 10px;
+  padding: 8px;   
+ }
+
+ .remove{
+  margin-right: 100px;
+ }
+.Data > h2{
+  margin-left: 100px;
+}
+
+.Data >h1{
+  margin-left: 122px;
+}
